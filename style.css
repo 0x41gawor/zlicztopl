@@ -1,0 +1,215 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: center; /* centrum poziomo */
+    align-items: center;      /* centrum pionowo */
+    gap: 4em;                 /* odstęp między logo i nawigacją */
+    padding: 1em 2em;
+    background: #fff;
+    border-bottom: 1px solid #ddd;
+    flex-wrap: wrap;          /* żeby nie złamało na mobilkach */
+}
+
+.logo img {
+    height: 40px;
+    width: auto;
+}
+
+
+nav a {
+    margin-left: 1em;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.hero {
+    text-align: center;
+    padding: 4em 2em;
+}
+
+.hero h1 {
+    color: #FF9800;
+    font-size: 3rem; /* lub 48px */
+    font-weight: 700;
+    margin-bottom: 0.5em;
+}
+
+.features-block {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 4em 2em;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3em;
+}
+
+
+.features-text {
+    max-width: 400px;
+    flex: 1 1 300px;
+    order: 1;
+}
+
+.features-text.right {
+    text-align: right;
+}
+
+.features-text h2 {
+    font-size: 2rem;
+    color: #2eaf58;
+    margin-bottom: 1em;
+    line-height: 1.4;
+}
+
+.features-text p {
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.features-images {
+    display: flex;
+    gap: 1em;
+    flex: 2 1 600px;
+    flex-wrap: wrap;
+    justify-content: center;
+    order: 2;
+}
+
+.features-images img {
+    height: 420px;
+    max-width: 100%;
+    border-radius: 12px;
+
+    border: 4px solid rgba(70, 70, 70); /* subtelna ramka */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); /* delikatny cień */
+
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.features-images img:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.25); /* mocniejszy cień przy hoverze */
+}
+
+/* Nadpisz kolejność dla .reverse na desktopie */
+.features-block.reverse .features-text {
+    order: 2;
+}
+.features-block.reverse .features-images {
+    order: 1;
+}
+
+/* Ale na mobile znowu przywróć tekst na górę */
+@media (max-width: 768px) {
+    .features-block .features-text {
+        order: 1 !important;
+    }
+    .features-block .features-images {
+        order: 2 !important;
+    }
+
+    .features-block .features-text {
+        text-align: center;
+        margin: 0 auto; /* żeby centrować horyzontalnie */
+    }
+
+    .features-block .features-text h2,
+    .features-block .features-text p {
+        text-align: center;
+    }
+}
+
+.features .grid {
+    display: flex;
+    gap: 2em;
+    padding: 2em;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.feature {
+    max-width: 300px;
+    text-align: center;
+}
+
+.social img {
+    width: 32px;
+    margin: 0 0.5em;
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+    background: #f0f0f0;
+    font-size: 0.9em;
+}
+
+.contact {
+    padding: 4em 2em;
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+}
+
+.contact h1 {
+    color: #000;
+    font-size: 3rem; /* lub 48px */
+    font-weight: 700;
+    margin-bottom: 0.5em;
+}
+
+.contact-list {
+    list-style: disc;
+    text-align: left;
+    display: inline-block;
+    padding-left: 1em;
+    margin: 1em 0;
+}
+
+.contact-icons {
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    align-items: center;
+}
+
+.contact-method p {
+    margin: 0.5em 0;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.icon-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.icon-button img,
+.contact-method img,
+.social img {
+    width: 40px;
+    height: 40px;
+    margin: 0.2em;
+    transition: transform 0.2s ease;
+}
+
+.social a img:hover,
+.icon-button:hover img {
+    transform: scale(1.1);
+}
+
+a img:hover {
+    transform: scale(1.1);
+}
