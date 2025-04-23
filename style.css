@@ -38,8 +38,9 @@ nav a {
 .hero h1 {
     color: #FF9800;
     font-size: 3rem; /* lub 48px */
-    font-weight: 700;
-    margin-bottom: 0.5em;
+    font-weight: 200;
+    margin-bottom: 0.5em; 
+     letter-spacing: 4px;
 }
 
 .features-block {
