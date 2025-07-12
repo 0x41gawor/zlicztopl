@@ -1,0 +1,1091 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_41105b3a376cd91cb27cdff9f6d46696 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="https://cdn.jsdelivr.net/npm/leaflet-textpath@1.2.3/leaflet.textpath.min.js"></script>
+    
+        <style>
+            /* Usuń biały box wokół tooltipa */
+            .leaflet-tooltip {
+                background: transparent !important;
+                border: none !important;
+                box-shadow: none !important;
+                padding: 0 !important;
+            }
+        </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_41105b3a376cd91cb27cdff9f6d46696" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_41105b3a376cd91cb27cdff9f6d46696 = L.map(
+                "map_41105b3a376cd91cb27cdff9f6d46696",
+                {
+                    center: [7.8731, 80.7718],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 7,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_05a3dcbfa54139892ed670037667c524 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_05a3dcbfa54139892ed670037667c524.addTo(map_41105b3a376cd91cb27cdff9f6d46696);
+        
+    
+            var marker_5d1c4e47dc06e8296aab24bbbb8f80b7 = L.marker(
+                [7.2919, 80.6349],
+                {
+}
+            ).addTo(map_41105b3a376cd91cb27cdff9f6d46696);
+        
+    
+            var icon_dd8b4d85400f1d7597b87ab2df7aa0fb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_30da65a19a3a370e1b755a503294b125 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_3243dda57f54555a4426ade520e9d622 = $(`<div id="html_3243dda57f54555a4426ade520e9d622" style="width: 100.0%; height: 100.0%;">     <div style="font-size: 15px;">         <h3>Bahirawakanda Vihara Buddha Statue</h3><br>         <b>Miasto:</b> Kandy<br>         <b>Typ:</b> Zabytek / religia<br>         <b>Czas :</b> 1 h<br>         <b>Opis:</b> Gigantyczny biały posąg Buddy z panoramicznym widokiem na całe Kandy.<br>         <a href="https://maps.app.goo.gl/dbyUDzNHv1Zd5DYT6" target="_blank">Zobacz w Google Maps</a>     </div>     </div>`)[0];
+                popup_30da65a19a3a370e1b755a503294b125.setContent(html_3243dda57f54555a4426ade520e9d622);
+            
+        
+
+        marker_5d1c4e47dc06e8296aab24bbbb8f80b7.bindPopup(popup_30da65a19a3a370e1b755a503294b125)
+        ;
+
+        
+    
+    
+                marker_5d1c4e47dc06e8296aab24bbbb8f80b7.setIcon(icon_dd8b4d85400f1d7597b87ab2df7aa0fb);
+            
+    
+            var marker_065aaa3aa666b7382d102e9ecf808ebd = L.marker(
+                [7.9402901, 81.0034444],
+                {
+}
+            ).addTo(map_41105b3a376cd91cb27cdff9f6d46696);
+        
+    
+            var icon_553aad2c525879ef4bde752fe577e517 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e737ec6364c2238d1a6390909d53ca5c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_539d1ff77848cbb8fdb3b481a1d3fe94 = $(`<div id="html_539d1ff77848cbb8fdb3b481a1d3fe94" style="width: 100.0%; height: 100.0%;">     <div style="font-size: 15px;">         <h3>Polonnaruwa</h3><br>         <b>Miasto:</b> Polonnaruwa<br>         <b>Typ:</b> Zabytek<br>         <b>Czas :</b> ½ dnia (3–4 h)<br>         <b>Opis:</b> Ruiny średniowiecznej stolicy: pałace, Gal Vihara (kamienne posągi Buddy), zbiorniki wodne.<br>         <a href="https://maps.app.goo.gl/uQ2fYJaohdjpT8ZeA" target="_blank">Zobacz w Google Maps</a>     </div>     </div>`)[0];
+                popup_e737ec6364c2238d1a6390909d53ca5c.setContent(html_539d1ff77848cbb8fdb3b481a1d3fe94);
+            
+        
+
+        marker_065aaa3aa666b7382d102e9ecf808ebd.bindPopup(popup_e737ec6364c2238d1a6390909d53ca5c)
+        ;
+
+        
+    
+    
+                marker_065aaa3aa666b7382d102e9ecf808ebd.setIcon(icon_553aad2c525879ef4bde752fe577e517);
+            
+    
+            var marker_273e0289a7bef432dcf0ad441ade6f4d = L.marker(
+                [7.956944, 80.75972],
+                {
+}
+            ).addTo(map_41105b3a376cd91cb27cdff9f6d46696);
+        
+    
+            var icon_40e8cfc486b41434c146b7b5fcca1048 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_46d41e400fccac36f743b5201684c18e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_58a4b193f08bcfa3ec99988223fdf0a7 = $(`<div id="html_58a4b193f08bcfa3ec99988223fdf0a7" style="width: 100.0%; height: 100.0%;">     <div style="font-size: 15px;">         <h3>Sigiriya</h3><br>         <b>Miasto:</b> Sigiriya<br>         <b>Typ:</b> Zabytek<br>         <b>Czas :</b> 2–3 h<br>         <b>Opis:</b> Cytadela Lwa na 200-metrowej skale + freski „niebiańskich dziewcząt”, ogrody wodne.<br>         <a href="https://maps.app.goo.gl/YPbLA1e5qFs8A6MX9" target="_blank">Zobacz w Google Maps</a>     </div>     </div>`)[0];
+                popup_46d41e400fccac36f743b5201684c18e.setContent(html_58a4b193f08bcfa3ec99988223fdf0a7);
+            
+        
+
+        marker_273e0289a7bef432dcf0ad441ade6f4d.bindPopup(popup_46d41e400fccac36f743b5201684c18e)
+        ;
+
+        
+    
+    
+                marker_273e0289a7bef432dcf0ad441ade6f4d.setIcon(icon_40e8cfc486b41434c146b7b5fcca1048);
+            
+    
+            var marker_4962876234f1284659822581be3a5630 = L.marker(
+                [7.85, 80.65],
+                {
+}
+            ).addTo(map_41105b3a376cd91cb27cdff9f6d46696);
+        
+    
+            var icon_3987b25a28a10f845dd0d25a06af7cb4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_48304fc4b88cddbf7becf7989c3cb6f5 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f4037850f6d3db70babb71713d112a6f = $(`<div id="html_f4037850f6d3db70babb71713d112a6f" style="width: 100.0%; height: 100.0%;">     <div style="font-size: 15px;">         <h3>Dambulla Cave Temple</h3><br>         <b>Miasto:</b> Dambulla<br>         <b>Typ:</b> Zabytek<br>         <b>Czas :</b> 1–2 h<br>         <b>Opis:</b> Kompleks 5 jaskiń z ponad 150 posągami Buddy i malowidłami (I w. p.n.e.–XVIII w.).<br>         <a href="https://maps.app.goo.gl/CtkYxNn8By29s1Fx5" target="_blank">Zobacz w Google Maps</a>     </div>     </div>`)[0];
+                popup_48304fc4b88cddbf7becf7989c3cb6f5.setContent(html_f4037850f6d3db70babb71713d112a6f);
+            
+        
+
+        marker_4962876234f1284659822581be3a5630.bindPopup(popup_48304fc4b88cddbf7becf7989c3cb6f5)
+        ;
+
+        
+    
+    
+                marker_4962876234f1284659822581be3a5630.setIcon(icon_3987b25a28a10f845dd0d25a06af7cb4);
+            
+    
+            var marker_ad7da8b14f84e25dc82ea5b708875f02 = L.marker(
+                [7.3111, 80.6417],
+                {
+}
+            ).addTo(map_41105b3a376cd91cb27cdff9f6d46696);
+        
+    
+            var icon_1686010a24cfa0bdd1225b04cd1d541e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "pink",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_298a21cec793d4618dd9c4d260d426f3 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_55496133e9b17ca113a841086fb8f5e9 = $(`<div id="html_55496133e9b17ca113a841086fb8f5e9" style="width: 100.0%; height: 100.0%;">     <div style="font-size: 15px;">         <h3>Pokaz tańca Kandyan</h3><br>         <b>Miasto:</b> Kandy<br>         <b>Typ:</b> Kultura (show)<br>         <b>Czas :</b> 1 h<br>         <b>Opis:</b> Wieczorny pokaz bębnów, masek, ognia i tańców królewskich (ok. 17:30–18:30).<br>         <a href="https://maps.app.goo.gl/csa8P7TC7WA1ueeH8" target="_blank">Zobacz w Google Maps</a>     </div>     </div>`)[0];
+                popup_298a21cec793d4618dd9c4d260d426f3.setContent(html_55496133e9b17ca113a841086fb8f5e9);
+            
+        
+
+        marker_ad7da8b14f84e25dc82ea5b708875f02.bindPopup(popup_298a21cec793d4618dd9c4d260d426f3)
+        ;
+
+        
+    
+    
+                marker_ad7da8b14f84e25dc82ea5b708875f02.setIcon(icon_1686010a24cfa0bdd1225b04cd1d541e);
+            
+    
+            var marker_11b2574656ee19bac643c532b54c7fef = L.marker(
+                [6.9266, 79.8435],
+                {
+}
+            ).addTo(map_41105b3a376cd91cb27cdff9f6d46696);
+        
+    
+            var icon_b72486e9415348298b47f979e0b87790 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkgreen",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_556d1d9f7d57d1d49c47f94b49b6a7d5 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b07eee0e3e488ea46db28ffe99a9d163 = $(`<div id="html_b07eee0e3e488ea46db28ffe99a9d163" style="width: 100.0%; height: 100.0%;">     <div style="font-size: 15px;">         <h3>Zachód słońca Galle Face Green</h3><br>         <b>Miasto:</b> Colombo<br>         <b>Typ:</b> Krajobraz<br>         <b>Czas :</b> 1–1.5 h<br>         <b>Opis:</b> Nadmorski bulwar; lokalna atmosfera, uliczne przekąski, latawce.<br>         <a href="https://maps.app.goo.gl/Mq2JKfHs9xxGFe8z5" target="_blank">Zobacz w Google Maps</a>     </div>     </div>`)[0];
+                popup_556d1d9f7d57d1d49c47f94b49b6a7d5.setContent(html_b07eee0e3e488ea46db28ffe99a9d163);
+            
+        
+
+        marker_11b2574656ee19bac643c532b54c7fef.bindPopup(popup_556d1d9f7d57d1d49c47f94b49b6a7d5)
+        ;
+
+        
+    
+    
+                marker_11b2574656ee19bac643c532b54c7fef.setIcon(icon_b72486e9415348298b47f979e0b87790);
+            
+    
+            var marker_17f62d64656d35b37a464eb59fcb184e = L.marker(
+                [7.293627, 80.64135],
+                {
+}
+            ).addTo(map_41105b3a376cd91cb27cdff9f6d46696);
+        
+    
+            var icon_846f494edad625b339cc9b5951656da5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7aafeebae84f67072bb27cd2e6557451 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_dc74a2d94dee2e7356964d1fb29d9aa8 = $(`<div id="html_dc74a2d94dee2e7356964d1fb29d9aa8" style="width: 100.0%; height: 100.0%;">     <div style="font-size: 15px;">         <h3>Sri Dalada Maligawa (Temple of the Tooth)</h3><br>         <b>Miasto:</b> Kandy<br>         <b>Typ:</b> Zabytek<br>         <b>Czas :</b> 1–2 h<br>         <b>Opis:</b> Najświętsza relikwia – ząb Buddy; ceremonie puja 3× dziennie.<br>         <a href="https://maps.app.goo.gl/rmqp7aa69Gax63Re6" target="_blank">Zobacz w Google Maps</a>     </div>     </div>`)[0];
+                popup_7aafeebae84f67072bb27cd2e6557451.setContent(html_dc74a2d94dee2e7356964d1fb29d9aa8);
+            
+        
+
+        marker_17f62d64656d35b37a464eb59fcb184e.bindPopup(popup_7aafeebae84f67072bb27cd2e6557451)
+        ;
+
+        
+    
+    
+                marker_17f62d64656d35b37a464eb59fcb184e.setIcon(icon_846f494edad625b339cc9b5951656da5);
+            
+    
+            var marker_3d01c923d381306464a88650730e2bb7 = L.marker(
+                [7.2693, 80.5907],
+                {
+}
+            ).addTo(map_41105b3a376cd91cb27cdff9f6d46696);
+        
+    
+            var icon_1c3ecbaab78d3f3be606e7b71e54edf6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a4f3f6273e343e3103cd9945910dc538 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_8d94ac13ea4206bddf5082e816190221 = $(`<div id="html_8d94ac13ea4206bddf5082e816190221" style="width: 100.0%; height: 100.0%;">     <div style="font-size: 15px;">         <h3>Peradeniya Botanical Gardens</h3><br>         <b>Miasto:</b> Peradeniya (Kandy)<br>         <b>Typ:</b> Ogród botaniczny<br>         <b>Czas :</b> 2–3 h<br>         <b>Opis:</b> 60 ha orchidei, alei palm, gigantycznych bambusów.<br>         <a href="https://maps.app.goo.gl/WiyuojP8ZjZo25WF6" target="_blank">Zobacz w Google Maps</a>     </div>     </div>`)[0];
+                popup_a4f3f6273e343e3103cd9945910dc538.setContent(html_8d94ac13ea4206bddf5082e816190221);
+            
+        
+
+        marker_3d01c923d381306464a88650730e2bb7.bindPopup(popup_a4f3f6273e343e3103cd9945910dc538)
+        ;
+
+        
+    
+    
+                marker_3d01c923d381306464a88650730e2bb7.setIcon(icon_1c3ecbaab78d3f3be606e7b71e54edf6);
+            
+    
+            var marker_53e676199f2318787179ba0800443d7d = L.marker(
+                [7.29313, 80.64017],
+                {
+}
+            ).addTo(map_41105b3a376cd91cb27cdff9f6d46696);
+        
+    
+            var icon_dcb986e3c32ee27668556d208a7bf665 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f578d204621fbede23dd768e4e888fe4 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c6b598fe3618ec57e63fb598d24fdf66 = $(`<div id="html_c6b598fe3618ec57e63fb598d24fdf66" style="width: 100.0%; height: 100.0%;">     <div style="font-size: 15px;">         <h3>Royal Palace ruins</h3><br>         <b>Miasto:</b> Kandy<br>         <b>Typ:</b> Zabytek<br>         <b>Czas :</b> 30–45 min<br>         <b>Opis:</b> Pozostałości pałacu ostatnich królów Sinhala; niewielkie muzeum.<br>         <a href="https://maps.app.goo.gl/AicqaeHckcaoR7396" target="_blank">Zobacz w Google Maps</a>     </div>     </div>`)[0];
+                popup_f578d204621fbede23dd768e4e888fe4.setContent(html_c6b598fe3618ec57e63fb598d24fdf66);
+            
+        
+
+        marker_53e676199f2318787179ba0800443d7d.bindPopup(popup_f578d204621fbede23dd768e4e888fe4)
+        ;
+
+        
+    
+    
+                marker_53e676199f2318787179ba0800443d7d.setIcon(icon_dcb986e3c32ee27668556d208a7bf665);
+            
+    
+            var marker_1d358abe4bf0cab94d999bddc5d32886 = L.marker(
+                [6.028624, 80.216797],
+                {
+}
+            ).addTo(map_41105b3a376cd91cb27cdff9f6d46696);
+        
+    
+            var icon_5474f33d79ff13840c9a8bcc9050093d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9108421f96392d06f44baf4026ad3323 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6e9af965523ff279f6f68de58dc16395 = $(`<div id="html_6e9af965523ff279f6f68de58dc16395" style="width: 100.0%; height: 100.0%;">     <div style="font-size: 15px;">         <h3>Galle Fort</h3><br>         <b>Miasto:</b> Galle<br>         <b>Typ:</b> Zabytek<br>         <b>Czas :</b> 2–3 h<br>         <b>Opis:</b> Najlepiej zachowany kolonialny fort w Azji; mury obronne, latarnia, brukowane uliczki.<br>         <a href="https://maps.app.goo.gl/FnefVyVM1V5KyJDF7" target="_blank">Zobacz w Google Maps</a>     </div>     </div>`)[0];
+                popup_9108421f96392d06f44baf4026ad3323.setContent(html_6e9af965523ff279f6f68de58dc16395);
+            
+        
+
+        marker_1d358abe4bf0cab94d999bddc5d32886.bindPopup(popup_9108421f96392d06f44baf4026ad3323)
+        ;
+
+        
+    
+    
+                marker_1d358abe4bf0cab94d999bddc5d32886.setIcon(icon_5474f33d79ff13840c9a8bcc9050093d);
+            
+    
+            var marker_81b771b7be77360ed187d104cdccff33 = L.marker(
+                [6.03, 80.2175],
+                {
+}
+            ).addTo(map_41105b3a376cd91cb27cdff9f6d46696);
+        
+    
+            var icon_f8358cac2d99cfdbc14ae35cf49677d8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d828ab3ef969a8bb480b72c7d14964f6 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_8ddbf1f814842bbbbfa3994294c8fb07 = $(`<div id="html_8ddbf1f814842bbbbfa3994294c8fb07" style="width: 100.0%; height: 100.0%;">     <div style="font-size: 15px;">         <h3>Dutch Reformed Church & stare domy kupieckie</h3><br>         <b>Miasto:</b> Galle Fort<br>         <b>Typ:</b> Zabytek<br>         <b>Czas :</b> 30 min – 1 h<br>         <b>Opis:</b> Kościół z 1755 r. i kolonialne domy handlowe.<br>         <a href="https://maps.app.goo.gl/UTCxZBeHPTFrrHBS9" target="_blank">Zobacz w Google Maps</a>     </div>     </div>`)[0];
+                popup_d828ab3ef969a8bb480b72c7d14964f6.setContent(html_8ddbf1f814842bbbbfa3994294c8fb07);
+            
+        
+
+        marker_81b771b7be77360ed187d104cdccff33.bindPopup(popup_d828ab3ef969a8bb480b72c7d14964f6)
+        ;
+
+        
+    
+    
+                marker_81b771b7be77360ed187d104cdccff33.setIcon(icon_f8358cac2d99cfdbc14ae35cf49677d8);
+            
+    
+            var marker_164515e2dcfe1db2fd7739c850fa16e8 = L.marker(
+                [7.299101679830445, 80.64278953808032],
+                {
+}
+            ).addTo(map_41105b3a376cd91cb27cdff9f6d46696);
+        
+    
+            var icon_79ae71de276f51756bb08a998e08c5f3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_54e4938ce2766ff0d43128a005bd2f69 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_1f6fe315d0fff5c928ac6f13404a5853 = $(`<div id="html_1f6fe315d0fff5c928ac6f13404a5853" style="width: 100.0%; height: 100.0%;">     <div style="font-size: 15px;">         <h3>Udawatta Kele Sanctuary</h3><br>         <b>Miasto:</b> Kandy<br>         <b>Typ:</b> Rezerwat / las<br>         <b>Czas :</b> 1.5–2 h<br>         <b>Opis:</b> Leśny rezerwat nad świątynią Zęba; dzikie ścieżki, punkty widokowe, cisza i ptaki.<br>         <a href="https://maps.app.goo.gl/z47hHLCpTwLjAyLr9" target="_blank">Zobacz w Google Maps</a>     </div>     </div>`)[0];
+                popup_54e4938ce2766ff0d43128a005bd2f69.setContent(html_1f6fe315d0fff5c928ac6f13404a5853);
+            
+        
+
+        marker_164515e2dcfe1db2fd7739c850fa16e8.bindPopup(popup_54e4938ce2766ff0d43128a005bd2f69)
+        ;
+
+        
+    
+    
+                marker_164515e2dcfe1db2fd7739c850fa16e8.setIcon(icon_79ae71de276f51756bb08a998e08c5f3);
+            
+    
+            var marker_dad8e4f4a33f49420c10bb0c5586af72 = L.marker(
+                [6.43833, 80.88833],
+                {
+}
+            ).addTo(map_41105b3a376cd91cb27cdff9f6d46696);
+        
+    
+            var icon_34b9bd0b6e685eaee946c6c479de4679 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "beige",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_efe64cedb683abf24513d0c110d95b95 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_eb55c6f82ea5df7fe9cefa04f3be8c9a = $(`<div id="html_eb55c6f82ea5df7fe9cefa04f3be8c9a" style="width: 100.0%; height: 100.0%;">     <div style="font-size: 15px;">         <h3>Udawalawe National Park</h3><br>         <b>Miasto:</b> Udawalawe<br>         <b>Typ:</b> Safari<br>         <b>Czas :</b> 3–4 h<br>         <b>Opis:</b> 250+ słoni na otwartych równinach.<br>         <a href="https://maps.app.goo.gl/D191wYNGBhvhB1xF6" target="_blank">Zobacz w Google Maps</a>     </div>     </div>`)[0];
+                popup_efe64cedb683abf24513d0c110d95b95.setContent(html_eb55c6f82ea5df7fe9cefa04f3be8c9a);
+            
+        
+
+        marker_dad8e4f4a33f49420c10bb0c5586af72.bindPopup(popup_efe64cedb683abf24513d0c110d95b95)
+        ;
+
+        
+    
+    
+                marker_dad8e4f4a33f49420c10bb0c5586af72.setIcon(icon_34b9bd0b6e685eaee946c6c479de4679);
+            
+    
+            var marker_fc0c6b38b9da89119ac6c84b934aa24d = L.marker(
+                [5.948262, 80.471588],
+                {
+}
+            ).addTo(map_41105b3a376cd91cb27cdff9f6d46696);
+        
+    
+            var icon_b9b4ad4989fbac441662568b02aa1005 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c908311d8b86209f972d5f30c27d4a9f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_7fbd7c43d272edc9c02be8c88f764700 = $(`<div id="html_7fbd7c43d272edc9c02be8c88f764700" style="width: 100.0%; height: 100.0%;">     <div style="font-size: 15px;">         <h3>Mirissa</h3><br>         <b>Miasto:</b> Mirissa<br>         <b>Typ:</b> Plaża<br>         <b>Czas :</b> ½–1 dzień<br>         <b>Opis:</b> Zatoka surfingowa, obserwacja wielorybów.<br>         <a href="https://maps.app.goo.gl/KdvoybsWis8sFVwJ7" target="_blank">Zobacz w Google Maps</a>     </div>     </div>`)[0];
+                popup_c908311d8b86209f972d5f30c27d4a9f.setContent(html_7fbd7c43d272edc9c02be8c88f764700);
+            
+        
+
+        marker_fc0c6b38b9da89119ac6c84b934aa24d.bindPopup(popup_c908311d8b86209f972d5f30c27d4a9f)
+        ;
+
+        
+    
+    
+                marker_fc0c6b38b9da89119ac6c84b934aa24d.setIcon(icon_b9b4ad4989fbac441662568b02aa1005);
+            
+    
+            var marker_7ea7758ac1dbb98c9c557f48f3360920 = L.marker(
+                [6.0167, 80.25],
+                {
+}
+            ).addTo(map_41105b3a376cd91cb27cdff9f6d46696);
+        
+    
+            var icon_49910b314f8ca6f1eec64d5d4f75ce46 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1c51a05796812d2dbfd021f69f1f5d2f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_fd7d48b772824cbba029d201e46b6edf = $(`<div id="html_fd7d48b772824cbba029d201e46b6edf" style="width: 100.0%; height: 100.0%;">     <div style="font-size: 15px;">         <h3>Unawatuna</h3><br>         <b>Miasto:</b> Unawatuna<br>         <b>Typ:</b> Plaża<br>         <b>Czas :</b> ½ dnia<br>         <b>Opis:</b> Płytka zatoka do pływania, snorkeling. Zółwie tu są.<br>         <a href="https://maps.app.goo.gl/LCfz3adQnY76izq58" target="_blank">Zobacz w Google Maps</a>     </div>     </div>`)[0];
+                popup_1c51a05796812d2dbfd021f69f1f5d2f.setContent(html_fd7d48b772824cbba029d201e46b6edf);
+            
+        
+
+        marker_7ea7758ac1dbb98c9c557f48f3360920.bindPopup(popup_1c51a05796812d2dbfd021f69f1f5d2f)
+        ;
+
+        
+    
+    
+                marker_7ea7758ac1dbb98c9c557f48f3360920.setIcon(icon_49910b314f8ca6f1eec64d5d4f75ce46);
+            
+    
+            var marker_48cbba07085f9a945187aaaa103ca54f = L.marker(
+                [6.0167, 80.7833],
+                {
+}
+            ).addTo(map_41105b3a376cd91cb27cdff9f6d46696);
+        
+    
+            var icon_37932a6bda6dc3adb9af4cb9dd9126ed = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_21463f0cd71a3ba6bbec56b968e0ebac = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_976b3582df9d6fbb24cc46101449f0c8 = $(`<div id="html_976b3582df9d6fbb24cc46101449f0c8" style="width: 100.0%; height: 100.0%;">     <div style="font-size: 15px;">         <h3>Tangalle</h3><br>         <b>Miasto:</b> Tangalle<br>         <b>Typ:</b> Plaża<br>         <b>Czas :</b> ½–1 dzień<br>         <b>Opis:</b> Szerokie, spokojne plaże południa.<br>         <a href="https://maps.app.goo.gl/qFBdkv1Gp66KrziH9" target="_blank">Zobacz w Google Maps</a>     </div>     </div>`)[0];
+                popup_21463f0cd71a3ba6bbec56b968e0ebac.setContent(html_976b3582df9d6fbb24cc46101449f0c8);
+            
+        
+
+        marker_48cbba07085f9a945187aaaa103ca54f.bindPopup(popup_21463f0cd71a3ba6bbec56b968e0ebac)
+        ;
+
+        
+    
+    
+                marker_48cbba07085f9a945187aaaa103ca54f.setIcon(icon_37932a6bda6dc3adb9af4cb9dd9126ed);
+            
+    
+            var marker_b4e074dfc99c59259f1bf48abb205d8e = L.marker(
+                [6.8029, 80.7998],
+                {
+}
+            ).addTo(map_41105b3a376cd91cb27cdff9f6d46696);
+        
+    
+            var icon_59a2a812c9fa0da6959c2aded6f7bb2c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkgreen",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a1e4530d707fe10ea2e0d833224ce3a3 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e4fa120fd6cecfd47b7bf44b469827cc = $(`<div id="html_e4fa120fd6cecfd47b7bf44b469827cc" style="width: 100.0%; height: 100.0%;">     <div style="font-size: 15px;">         <h3>Horton Plains + World’s End</h3><br>         <b>Miasto:</b> Ohiya / Nuwara Eliya<br>         <b>Typ:</b> Krajobraz<br>         <b>Czas :</b> 3–4 h<br>         <b>Opis:</b> Wysokogórski płaskowyż, klif 870 m, Baker’s Falls.<br>         <a href="https://maps.app.goo.gl/ftDwywTQNMtFQVNDA" target="_blank">Zobacz w Google Maps</a>     </div>     </div>`)[0];
+                popup_a1e4530d707fe10ea2e0d833224ce3a3.setContent(html_e4fa120fd6cecfd47b7bf44b469827cc);
+            
+        
+
+        marker_b4e074dfc99c59259f1bf48abb205d8e.bindPopup(popup_a1e4530d707fe10ea2e0d833224ce3a3)
+        ;
+
+        
+    
+    
+                marker_b4e074dfc99c59259f1bf48abb205d8e.setIcon(icon_59a2a812c9fa0da6959c2aded6f7bb2c);
+            
+    
+            var marker_b4e440e6897a914b9bb33ee5eeaffe80 = L.marker(
+                [6.81002, 80.501355],
+                {
+}
+            ).addTo(map_41105b3a376cd91cb27cdff9f6d46696);
+        
+    
+            var icon_98d2e6772a4d3cde2c40242c54aacec6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkgreen",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0800111aa98f76d119f3942cc10805ac = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b78c74fb2eb48fdf96de5e5f050edbe5 = $(`<div id="html_b78c74fb2eb48fdf96de5e5f050edbe5" style="width: 100.0%; height: 100.0%;">     <div style="font-size: 15px;">         <h3>Adam’s Peak (Sri Pada)</h3><br>         <b>Miasto:</b> Dalhousie<br>         <b>Typ:</b> Krajobraz<br>         <b>Czas :</b> 6–7 h (nocny start)<br>         <b>Opis:</b> 5500 schodów, święty „odcisk stopy”.<br>         <a href="https://maps.app.goo.gl/ax6qRFuktubq2nFj9" target="_blank">Zobacz w Google Maps</a>     </div>     </div>`)[0];
+                popup_0800111aa98f76d119f3942cc10805ac.setContent(html_b78c74fb2eb48fdf96de5e5f050edbe5);
+            
+        
+
+        marker_b4e440e6897a914b9bb33ee5eeaffe80.bindPopup(popup_0800111aa98f76d119f3942cc10805ac)
+        ;
+
+        
+    
+    
+                marker_b4e440e6897a914b9bb33ee5eeaffe80.setIcon(icon_98d2e6772a4d3cde2c40242c54aacec6);
+            
+    
+            var marker_9355b2c3e9d669479ebcab1f60219a6d = L.marker(
+                [6.9785, 80.7133],
+                {
+}
+            ).addTo(map_41105b3a376cd91cb27cdff9f6d46696);
+        
+    
+            var icon_1dbe504795abcd49c2d7fea216a10f74 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5fed53c021fbfbb5cbd9105552d75cf9 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_820ca2aa6078395558c657246264961f = $(`<div id="html_820ca2aa6078395558c657246264961f" style="width: 100.0%; height: 100.0%;">     <div style="font-size: 15px;">         <h3>Nuwara Eliya</h3><br>         <b>Miasto:</b> Nuwara Eliya<br>         <b>Typ:</b> Zabytek<br>         <b>Czas :</b> 2–3 h (+ herbata)<br>         <b>Opis:</b> „Mała Anglia”: wiktoriańskie wille, pola herbaty.<br>         <a href="https://maps.app.goo.gl/cFsscj1mSo7AUcKH7" target="_blank">Zobacz w Google Maps</a>     </div>     </div>`)[0];
+                popup_5fed53c021fbfbb5cbd9105552d75cf9.setContent(html_820ca2aa6078395558c657246264961f);
+            
+        
+
+        marker_9355b2c3e9d669479ebcab1f60219a6d.bindPopup(popup_5fed53c021fbfbb5cbd9105552d75cf9)
+        ;
+
+        
+    
+    
+                marker_9355b2c3e9d669479ebcab1f60219a6d.setIcon(icon_1dbe504795abcd49c2d7fea216a10f74);
+            
+    
+            var marker_033eed4b5fcadb24a7d9dc62d5fca070 = L.marker(
+                [6.889503865900985, 81.03455978729083],
+                {
+}
+            ).addTo(map_41105b3a376cd91cb27cdff9f6d46696);
+        
+    
+            var icon_0fa80fc7992b84c0c1ebb32942daacf3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightgreen",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a033dba352bf266fc3424881258e5b00 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_faa1cc6b97a7577dfd1678f590cf28f8 = $(`<div id="html_faa1cc6b97a7577dfd1678f590cf28f8" style="width: 100.0%; height: 100.0%;">     <div style="font-size: 15px;">         <h3>Uva Halpewatte Tea Factory Tour</h3><br>         <b>Miasto:</b> Kumbalwela<br>         <b>Typ:</b> Plantacja<br>         <b>Czas :</b> 1–2 h<br>         <b>Opis:</b> <a> https://www.tripadvisor.com/AttractionProductReview-g616035-d25404408-Tea_Plantation_Tour_in_Ella_Sri_Lanka-Ella_Uva_Province.html /<a><br>         <a href="https://maps.app.goo.gl/t8M8juCAN94HAxZz5" target="_blank">Zobacz w Google Maps</a>     </div>     </div>`)[0];
+                popup_a033dba352bf266fc3424881258e5b00.setContent(html_faa1cc6b97a7577dfd1678f590cf28f8);
+            
+        
+
+        marker_033eed4b5fcadb24a7d9dc62d5fca070.bindPopup(popup_a033dba352bf266fc3424881258e5b00)
+        ;
+
+        
+    
+    
+                marker_033eed4b5fcadb24a7d9dc62d5fca070.setIcon(icon_0fa80fc7992b84c0c1ebb32942daacf3);
+            
+    
+            var poly_line_fa97be4508977035857f49a226353ebb = L.polyline(
+                [[7.206972829584824, 79.91456248437274], [7.861650803395891, 80.63763553561512]],
+                {"bubblingMouseEvents": true, "color": "#ed6f11", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#ed6f11", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 6}
+            ).addTo(map_41105b3a376cd91cb27cdff9f6d46696);
+        
+    
+            poly_line_fa97be4508977035857f49a226353ebb.bindTooltip(
+                `<div>
+                     
+        <div style="
+            background-color: rgba(237, 111, 17, 0.7);
+            padding: 4px 8px;
+            border-radius: 6px;
+            color: black;
+            font-size: 14px;
+            font-weight: light;
+            margin: 6px;
+        ">
+            Day 2: Negombo -> Dambulla
+        </div>
+        
+                 </div>`,
+                {
+  "direction": "top",
+  "sticky": true,
+}
+            );
+        
+    
+            poly_line_fa97be4508977035857f49a226353ebb.setText(
+                "     \u27a4",
+                {
+  "repeat": true,
+  "center": false,
+  "below": false,
+  "offset": 7,
+  "orientation": 0,
+  "attributes": {
+  "fill": "#ed6f11",
+  "font-weight": "bold",
+  "font-size": "24",
+},
+}
+            );
+        
+    
+            var poly_line_1e6056288de80e6135891909d1c7bc64 = L.polyline(
+                [[7.916780188541278, 80.99016770044987], [7.308139068941638, 80.62271402481439]],
+                {"bubblingMouseEvents": true, "color": "#ed6f11", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#ed6f11", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 6}
+            ).addTo(map_41105b3a376cd91cb27cdff9f6d46696);
+        
+    
+            poly_line_1e6056288de80e6135891909d1c7bc64.bindTooltip(
+                `<div>
+                     
+        <div style="
+            background-color: rgba(237, 111, 17, 0.7);
+            padding: 4px 8px;
+            border-radius: 6px;
+            color: black;
+            font-size: 14px;
+            font-weight: light;
+            margin: 6px;
+        ">
+            Day 2: Pollonaruwa -> Kandy<br> ETA: 2h35min
+        </div>
+        
+                 </div>`,
+                {
+  "direction": "top",
+  "sticky": true,
+}
+            );
+        
+    
+            poly_line_1e6056288de80e6135891909d1c7bc64.setText(
+                "     \u27a4",
+                {
+  "repeat": true,
+  "center": false,
+  "below": false,
+  "offset": 7,
+  "orientation": 0,
+  "attributes": {
+  "fill": "#ed6f11",
+  "font-weight": "bold",
+  "font-size": "24",
+},
+}
+            );
+        
+    
+            var polygon_09fd0433209354f86c1489ab2f48fcaf = L.polygon(
+                [[7.2561983480157695, 79.80125814358193], [7.255857774373858, 79.91489797515531], [7.163859014906934, 79.90460908463048], [7.178311028027531, 79.80653168224057]],
+                {"bubblingMouseEvents": true, "color": "#bc1313", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#bc1313", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_41105b3a376cd91cb27cdff9f6d46696);
+        
+    
+        var popup_c7d30c8360aa2248f40e136955b3808d = L.popup({
+  "maxWidth": 400,
+});
+
+        
+            
+                var html_2c45eda920d9e85351dc0fdcf2ff5842 = $(`<div id="html_2c45eda920d9e85351dc0fdcf2ff5842" style="width: 100.0%; height: 100.0%;"><div style="font-size:25px;">Arrival in Negombo at 14:20<br>Transfer to hotel <br> Night in Negombo</div></div>`)[0];
+                popup_c7d30c8360aa2248f40e136955b3808d.setContent(html_2c45eda920d9e85351dc0fdcf2ff5842);
+            
+        
+
+        polygon_09fd0433209354f86c1489ab2f48fcaf.bindPopup(popup_c7d30c8360aa2248f40e136955b3808d)
+        ;
+
+        
+    
+    
+            polygon_09fd0433209354f86c1489ab2f48fcaf.bindTooltip(
+                `<div>
+                     
+    <div style="
+        background-color: rgba(188, 19, 19, 0.9);
+        padding: 5px 10px;
+        border-radius: 8px;
+        color: black;
+        font-size: 18px;
+        font-weight: bold;
+        margin: 10px;
+    ">
+        <h3 style="margin: 0;">Day 1: arrival in Negombo</h3>
+    </div>
+    
+                 </div>`,
+                {
+  "permanent": true,
+  "direction": "top",
+  "sticky": false,
+}
+            );
+        
+    
+            var polygon_d8af28953493a01fd21f645fe1952c2d = L.polygon(
+                [[7.864575225583633, 80.63497994341607], [8.042930641915033, 80.74846483822556], [7.958834667419803, 81.1289835334392]],
+                {"bubblingMouseEvents": true, "color": "#ed6f11", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ed6f11", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_41105b3a376cd91cb27cdff9f6d46696);
+        
+    
+        var popup_05b8c9db8bbc4f03816aa3286c0207ad = L.popup({
+  "maxWidth": 400,
+});
+
+        
+            
+                var html_b6b37ba0e9b6bd33d252c0e83ef6293e = $(`<div id="html_b6b37ba0e9b6bd33d252c0e83ef6293e" style="width: 100.0%; height: 100.0%;"><div style="font-size:25px;">Day2: <br> Transfer from Negombo to Dambulla<br>Sightseeing in Dambulla, Sigiryia, Polonnaruwa<br>Transfer to Kandy<br>Night in Kandy</div></div>`)[0];
+                popup_05b8c9db8bbc4f03816aa3286c0207ad.setContent(html_b6b37ba0e9b6bd33d252c0e83ef6293e);
+            
+        
+
+        polygon_d8af28953493a01fd21f645fe1952c2d.bindPopup(popup_05b8c9db8bbc4f03816aa3286c0207ad)
+        ;
+
+        
+    
+    
+            polygon_d8af28953493a01fd21f645fe1952c2d.bindTooltip(
+                `<div>
+                     
+    <div style="
+        background-color: rgba(237, 111, 17, 0.9);
+        padding: 5px 10px;
+        border-radius: 8px;
+        color: black;
+        font-size: 18px;
+        font-weight: bold;
+        margin: 10px;
+    ">
+        <h3 style="margin: 0;">Day 2: Dambulla -> Sigiriya -> Polonnaruwa</h3>
+    </div>
+    
+                 </div>`,
+                {
+  "permanent": true,
+  "direction": "top",
+  "sticky": false,
+}
+            );
+        
+    
+            var polygon_be2c6ed864a5bd94cc11acfde3d38178 = L.polygon(
+                [[7.350253453372621, 80.49533008392741], [7.364830580402238, 80.68967225015241], [7.23361929208552, 80.7272341814396], [7.241719866055828, 80.52799263287281]],
+                {"bubblingMouseEvents": true, "color": "#edb221", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#edb221", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_41105b3a376cd91cb27cdff9f6d46696);
+        
+    
+        var popup_750c7bb22e37e0e9df80d4a03d40318f = L.popup({
+  "maxWidth": 400,
+});
+
+        
+            
+                var html_73abacb20bef098fd78320e98444a344 = $(`<div id="html_73abacb20bef098fd78320e98444a344" style="width: 100.0%; height: 100.0%;"><div style="font-size:25px;"></div></div>`)[0];
+                popup_750c7bb22e37e0e9df80d4a03d40318f.setContent(html_73abacb20bef098fd78320e98444a344);
+            
+        
+
+        polygon_be2c6ed864a5bd94cc11acfde3d38178.bindPopup(popup_750c7bb22e37e0e9df80d4a03d40318f)
+        ;
+
+        
+    
+    
+            polygon_be2c6ed864a5bd94cc11acfde3d38178.bindTooltip(
+                `<div>
+                     
+    <div style="
+        background-color: rgba(237, 178, 33, 0.9);
+        padding: 5px 10px;
+        border-radius: 8px;
+        color: black;
+        font-size: 18px;
+        font-weight: bold;
+        margin: 10px;
+    ">
+        <h3 style="margin: 0;">Day 3-4: Kandy</h3>
+    </div>
+    
+                 </div>`,
+                {
+  "permanent": true,
+  "direction": "top",
+  "sticky": false,
+}
+            );
+        
+</script>
+</html>

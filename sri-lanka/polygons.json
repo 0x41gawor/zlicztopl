@@ -1,0 +1,37 @@
+[
+  {
+    "locations": [
+      [7.2561983480157695, 79.80125814358193],
+      [7.255857774373858, 79.91489797515531],
+      [7.163859014906934, 79.90460908463048],
+      [7.178311028027531, 79.80653168224057]
+    ],
+    "color": "#bc1313",
+    "fill_color": "#bc1313",
+    "popup": "Arrival in Negombo at 14:20<br>Transfer to hotel <br> Night in Negombo",
+    "tooltip": "Day 1: arrival in Negombo"
+  },
+  {
+    "locations": [
+      [7.864575225583633, 80.63497994341607],
+      [8.042930641915033, 80.74846483822556],
+      [7.958834667419803, 81.1289835334392]
+    ],
+    "color": "#ed6f11",
+    "fill_color": "#ed6f11",
+    "popup": "Day2: <br> Transfer from Negombo to Dambulla<br>Sightseeing in Dambulla, Sigiryia, Polonnaruwa<br>Transfer to Kandy<br>Night in Kandy",
+    "tooltip": "Day 2: Dambulla -> Sigiriya -> Polonnaruwa"
+  },
+  {
+    "locations": [
+      [7.350253453372621, 80.49533008392741 ],
+      [7.364830580402238, 80.68967225015241 ],
+      [ 7.23361929208552, 80.7272341814396],
+      [ 7.241719866055828, 80.52799263287281]
+    ],
+    "color": "#edb221",
+    "fill_color": "#edb221",
+    "popup": "",
+    "tooltip": "Day 3-4: Kandy"
+  }
+]

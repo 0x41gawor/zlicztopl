@@ -1,0 +1,212 @@
+[
+  {
+  "name": "Bahirawakanda Vihara Buddha Statue",
+  "city": "Kandy",
+  "google_maps": "https://maps.app.goo.gl/dbyUDzNHv1Zd5DYT6",
+  "category": "Zabytek / religia",
+  "info": "Gigantyczny biały posąg Buddy z panoramicznym widokiem na całe Kandy.",
+  "time": "1 h",
+  "lat": 7.2919,
+  "lng": 80.6349
+},
+  {
+    "name": "Polonnaruwa",
+    "city": "Polonnaruwa",
+    "google_maps": "https://maps.app.goo.gl/uQ2fYJaohdjpT8ZeA",
+    "category": "Zabytek",
+    "info": "Ruiny średniowiecznej stolicy: pałace, Gal Vihara (kamienne posągi Buddy), zbiorniki wodne.",
+    "time": "½ dnia (3–4 h)",
+    "lat": 7.9402901,
+    "lng": 81.0034444
+  },
+  {
+    "name": "Sigiriya",
+    "city": "Sigiriya",
+    "google_maps": "https://maps.app.goo.gl/YPbLA1e5qFs8A6MX9",
+    "category": "Zabytek",
+    "info": "Cytadela Lwa na 200-metrowej skale + freski „niebiańskich dziewcząt”, ogrody wodne.",
+    "time": "2–3 h",
+    "lat": 7.956944,
+    "lng": 80.75972
+  },
+  {
+    "name": "Dambulla Cave Temple",
+    "city": "Dambulla",
+    "google_maps": "https://maps.app.goo.gl/CtkYxNn8By29s1Fx5",
+    "category": "Zabytek",
+    "info": "Kompleks 5 jaskiń z ponad 150 posągami Buddy i malowidłami (I w. p.n.e.–XVIII w.).",
+    "time": "1–2 h",
+    "lat": 7.85,
+    "lng": 80.65
+  },
+  {
+    "name": "Pokaz tańca Kandyan",
+    "city": "Kandy",
+    "google_maps": "https://maps.app.goo.gl/csa8P7TC7WA1ueeH8",
+    "category": "Kultura (show)",
+    "info": "Wieczorny pokaz bębnów, masek, ognia i tańców królewskich (ok. 17:30–18:30).",
+    "time": "1 h",
+    "lat": 7.3111,
+    "lng": 80.6417
+  },
+  {
+    "name": "Zachód słońca Galle Face Green",
+    "city": "Colombo",
+    "google_maps": "https://maps.app.goo.gl/Mq2JKfHs9xxGFe8z5",
+    "category": "Krajobraz",
+    "info": "Nadmorski bulwar; lokalna atmosfera, uliczne przekąski, latawce.",
+    "time": "1–1.5 h",
+    "lat": 6.9266,
+    "lng": 79.8435
+  },
+  {
+    "name": "Sri Dalada Maligawa (Temple of the Tooth)",
+    "city": "Kandy",
+    "google_maps": "https://maps.app.goo.gl/rmqp7aa69Gax63Re6",
+    "category": "Zabytek",
+    "info": "Najświętsza relikwia – ząb Buddy; ceremonie puja 3× dziennie.",
+    "time": "1–2 h",
+    "lat": 7.293627,
+    "lng": 80.64135
+  },
+  {
+    "name": "Peradeniya Botanical Gardens",
+    "city": "Peradeniya (Kandy)",
+    "google_maps": "https://maps.app.goo.gl/WiyuojP8ZjZo25WF6",
+    "category": "Ogród botaniczny",
+    "info": "60 ha orchidei, alei palm, gigantycznych bambusów.",
+    "time": "2–3 h",
+    "lat": 7.2693,
+    "lng": 80.5907
+  },
+  {
+    "name": "Royal Palace ruins",
+    "city": "Kandy",
+    "google_maps": "https://maps.app.goo.gl/AicqaeHckcaoR7396",
+    "category": "Zabytek",
+    "info": "Pozostałości pałacu ostatnich królów Sinhala; niewielkie muzeum.",
+    "time": "30–45 min",
+    "lat": 7.29313,
+    "lng": 80.64017
+  },
+  {
+    "name": "Galle Fort",
+    "city": "Galle",
+    "google_maps": "https://maps.app.goo.gl/FnefVyVM1V5KyJDF7",
+    "category": "Zabytek",
+    "info": "Najlepiej zachowany kolonialny fort w Azji; mury obronne, latarnia, brukowane uliczki.",
+    "time": "2–3 h",
+    "lat": 6.028624,
+    "lng": 80.216797
+  },
+  {
+    "name": "Dutch Reformed Church & stare domy kupieckie",
+    "city": "Galle Fort",
+    "google_maps": "https://maps.app.goo.gl/UTCxZBeHPTFrrHBS9",
+    "category": "Zabytek",
+    "info": "Kościół z 1755 r. i kolonialne domy handlowe.",
+    "time": "30 min – 1 h",
+    "lat": 6.03,
+    "lng": 80.2175
+  },
+  {
+  "name": "Udawatta Kele Sanctuary",
+  "city": "Kandy",
+  "google_maps": "https://maps.app.goo.gl/z47hHLCpTwLjAyLr9",
+  "category": "Rezerwat / las",
+  "info": "Leśny rezerwat nad świątynią Zęba; dzikie ścieżki, punkty widokowe, cisza i ptaki.",
+  "time": "1.5–2 h",
+  "lat": 7.299101679830445,
+  "lng": 80.64278953808032
+},
+  {
+    "name": "Udawalawe National Park",
+    "city": "Udawalawe",
+    "google_maps": "https://maps.app.goo.gl/D191wYNGBhvhB1xF6",
+    "category": "Safari",
+    "info": "250+ słoni na otwartych równinach.",
+    "time": "3–4 h",
+    "lat": 6.43833,
+    "lng": 80.88833
+  },
+  {
+    "name": "Mirissa",
+    "city": "Mirissa",
+    "google_maps": "https://maps.app.goo.gl/KdvoybsWis8sFVwJ7",
+    "category": "Plaża",
+    "info": "Zatoka surfingowa, obserwacja wielorybów.",
+    "time": "½–1 dzień",
+    "lat": 5.948262,
+    "lng": 80.471588
+  },
+  {
+    "name": "Unawatuna",
+    "city": "Unawatuna",
+    "google_maps": "https://maps.app.goo.gl/LCfz3adQnY76izq58",
+    "category": "Plaża",
+    "info": "Płytka zatoka do pływania, snorkeling. Zółwie tu są.",
+    "time": "½ dnia",
+    "lat": 6.0167,
+    "lng": 80.25
+  },
+  {
+    "name": "Tangalle",
+    "city": "Tangalle",
+    "google_maps": "https://maps.app.goo.gl/qFBdkv1Gp66KrziH9",
+    "category": "Plaża",
+    "info": "Szerokie, spokojne plaże południa.",
+    "time": "½–1 dzień",
+    "lat": 6.0167,
+    "lng": 80.7833
+  },
+  {
+    "name": "Horton Plains + World’s End",
+    "city": "Ohiya / Nuwara Eliya",
+    "google_maps": "https://maps.app.goo.gl/ftDwywTQNMtFQVNDA",
+    "category": "Krajobraz",
+    "info": "Wysokogórski płaskowyż, klif 870 m, Baker’s Falls.",
+    "time": "3–4 h",
+    "lat": 6.8029,
+    "lng": 80.7998
+  },
+  {
+    "name": "Adam’s Peak (Sri Pada)",
+    "city": "Dalhousie",
+    "google_maps": "https://maps.app.goo.gl/ax6qRFuktubq2nFj9",
+    "category": "Krajobraz",
+    "info": "5500 schodów, święty „odcisk stopy”.",
+    "time": "6–7 h (nocny start)",
+    "lat": 6.81002,
+    "lng": 80.501355
+  },
+  {
+    "name": "Nuwara Eliya",
+    "city": "Nuwara Eliya",
+    "google_maps": "https://maps.app.goo.gl/cFsscj1mSo7AUcKH7",
+    "category": "Zabytek",
+    "info": "„Mała Anglia”: wiktoriańskie wille, pola herbaty.",
+    "time": "2–3 h (+ herbata)",
+    "lat": 6.9785,
+    "lng": 80.7133
+  },
+  {
+    "name": "Train ride Kandy–Ella",
+    "city": "Kandy → Ella",
+    "google_maps": "https://maps.app.goo.gl/Puy53RqfRRt1fAHY7",
+    "category": "Doświadczenie / krajobraz",
+    "info": "Najpiękniejsza trasa kolejowa w Azji.",
+    "time": "6–7 h",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Uva Halpewatte Tea Factory Tour",
+    "city": "Kumbalwela",
+    "google_maps": "https://maps.app.goo.gl/t8M8juCAN94HAxZz5",
+    "category": "Plantacja",
+    "info": "<a> https://www.tripadvisor.com/AttractionProductReview-g616035-d25404408-Tea_Plantation_Tour_in_Ella_Sri_Lanka-Ella_Uva_Province.html /<a>",
+    "time": "1–2 h",
+    "lat": 6.889503865900985,
+    "lng": 81.03455978729083 
+  }
+]
